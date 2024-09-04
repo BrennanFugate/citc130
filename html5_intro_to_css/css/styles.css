@@ -1,0 +1,37 @@
+body {
+    background-color: lavender;
+
+}
+
+#container {
+    background-color: white;
+    width: 1200px;
+    margin: 20px auto;
+    border: 2 solid black;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+
+nav {
+    text-align: center;
+    margin: 20px;
+}
+
+nav a 
+{
+    font-size: 24px;
+    color: darkslateblue;
+    margin: 0 20px;
+    font-weight: bold;
+
+}
+
+h1,h2,h3,footer
+{
+ text-align: center;
+}
