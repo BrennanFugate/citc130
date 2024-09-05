@@ -1,0 +1,51 @@
+body {
+    background-color: lavender;
+
+}
+
+#container {
+    background-color: white;
+    width: 1200px;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+
+nav {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+nav a 
+{
+    font-size: 24px;
+    color: darkslateblue;
+    margin: 0 20px;
+    font-weight: bold;
+
+}
+
+h1,h2,h3,h4,footer
+{
+ text-align: center;
+}
+
+
+.centered-list {
+    list-style-type: none; /* Removes the default bullets */
+    padding: 0 12px;
+    margin: 3px auto; /* Centers the list within its container */
+    text-align: center; /* Centers the list items */
+  }
+
+.centered-list li 
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
