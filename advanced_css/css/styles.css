@@ -19,17 +19,40 @@ img {
 
 nav {
     text-align: center;
-    margin: 10px 10px;
+    margin: 2px 2px;
+    padding: 3px;
+    background-color: lavender;
 }
 
-nav a 
-{
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+nav li {
+    display: inline-block
+}
+
+nav li a {
+    display: block;
+    color: blueviolet;
     font-size: 24px;
-    color: darkslateblue;
-    margin: 0 20px;
     font-weight: bold;
+    text-decoration: none;
+    margin: 0px 20px;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
 
 }
+
+nav a :hover{
+    background-color: white;
+    color: black;
+}
+
 
 h1,h2,h3,h4,footer
 {
