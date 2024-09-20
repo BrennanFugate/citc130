@@ -1,0 +1,141 @@
+body {
+  background-color: black;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+#banner {
+  width:95%;
+}
+
+#container {
+  background-color: #01014a;
+}
+
+/* Mobile Styles */
+
+@media (min-width: 320px) {
+  
+  #container {
+    width: 80%;
+    margin: 20px auto;
+    border: 4px solid black;
+    border-radius: 20px;
+    color: #34BE5F;
+  }
+  
+  nav {
+    border-radius: 4px;
+    background-color: #15AA5C;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  nav li {
+    display: block;
+  }
+
+  nav li a {
+    display: block;
+    height: auto;
+    padding: 5px;
+    line-height: 40px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+
+  nav li a:hover {
+    background-color: black;
+    color: red;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+    color: #0F97A6;
+    text-shadow: 1px 1px 1px #000;
+  }
+
+  footer {
+    text-align: center;
+    padding: 40px;
+    color: #F29A2E;
+    text-shadow: 1px 1px 1px #000;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) { 
+
+#container {
+  color: #34BE5F;
+}
+
+  nav li {
+    display: inline-block; /* Makes the nav items display horizontally */
+  }
+
+  nav li a {
+    text-align: center;
+    height: auto;
+    line-height: 50px;
+    margin: 5px;
+  }
+
+  .main_image {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #000;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  #container {
+    width: 65%;
+    margin: 20px auto;
+    border: 4px solid black;
+    border-radius: 20px;
+    color: #34BE5F;
+  }
+  
+  nav {
+    display: inline-block;
+    padding: 0px
+}
+
+  nav li a {
+    display: inline-block;
+    color: #01014a;
+  }
+
+  hr {
+    display: none;
+  }
+
+  #multi_col {
+    display: flex;
+  }
+
+  .col {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+  }
+}
+
